@@ -101,13 +101,15 @@ section .card-program .card{
       align-items: center;
       border-radius: 0.3rem;
       border-bottom: 0.2rem white solid;
-      background-color: rgba(128, 128, 128, 0.5);
-      box-shadow: rgba4px 4px 10px rgba(31, 255, 1, 1);
+      background-color: rgba(141, 156, 163, 0.5);
+      box-shadow: 1px 1px 5px rgb(0, 0, 0);
+      width: 17rem;
 
 }
 section .card-program p{
       font-size: 1.9rem;
       margin: 10px;
+      color: white;
 }
 section .card-program i{
       font-size: 3rem;
