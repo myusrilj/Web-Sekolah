@@ -293,7 +293,7 @@ body{
 }
 .bacground-img{
   position: relative;
-  background-image: url('/img/economy.jpg');
+  background-image: url('../img/economy.jpg');
   background-size: cover;
   height: 500px;
   width: 100%;
@@ -523,7 +523,7 @@ body{
   color: #1877F2;
 }
 .img-artikela{
-  background-image: url(/img/walpaper\ satu\ .jpg);
+  background-image: url(../img/walpaper\ satu\ .jpg);
   height: 70%;
   width: 100%;
   position: relative;
@@ -537,7 +537,7 @@ body{
   align-items: center;
 }
 .img-artikelb{
-  background-image: url(/img/walpaper\ dua.jpg);
+  background-image: url(../img/walpaper\ dua.jpg);
   height: 70%;
   width: 100%;
   position: relative;
@@ -576,7 +576,7 @@ body{
   color: #1877F2;
 }
 .img-artikel{
-  background-image: url(/img/sosial.jpg);
+  background-image: url(../img/sosial.jpg);
   height: 50%;
   width: 100%;
   position: relative;
@@ -590,7 +590,7 @@ body{
   align-items: center;
 }
 .img-artikels{
-  background-image: url(/img/koky.jpg);
+  background-image: url(../img/koky.jpg);
   height: 50%;
   width: 100%;
   position: relative;
@@ -604,7 +604,7 @@ body{
   align-items: center;
 }
 .img-artikeld{
-  background-image: url(/img/demo.jpg);
+  background-image: url(../img/demo.jpg);
   height: 50%;
   width: 100%;
   position: relative;
@@ -793,7 +793,7 @@ button {
   width: 50%;
   height: 20rem;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5), 0px 1px 3px rgba(0, 0, 0, 0.08);
-  background-image: url(/img/demo.jpg);
+  background-image: url(../img/demo.jpg);
   background-size: cover;
   top: 0;
   left: 0;
@@ -864,7 +864,7 @@ button {
   margin-top: 5px;
   height: 50%;
   width: 95%;
-  background-image: url(/img/img\ life\ a.jpg);
+  background-image: url(../img/img\ life\ a.jpg);
   background-size:cover ;
 }
 .img-lifeb{
@@ -872,7 +872,7 @@ button {
   height: 50%;
   width: 95%;
   border-radius: 5%;
-  background-image: url(/img/img\ life\ b.jpg);
+  background-image: url(../img/img\ life\ b.jpg);
   background-size:cover ;
 }
 .img-lifec{
@@ -880,7 +880,7 @@ button {
   height: 50%;
   width: 95%;
   border-radius: 5%;
-  background-image: url(/img/img\ life\ c.jpg);
+  background-image: url(../img/img\ life\ c.jpg);
   background-size:cover ;
 }
 .text-life{
