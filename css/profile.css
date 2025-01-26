@@ -2,6 +2,7 @@
       margin: 0;
       padding: 0;
       border: 1px red solid;
+      box-sizing: border-box;
 }
 body{
       background: rgba(0, 0, 0, 0.2);
@@ -9,11 +10,12 @@ body{
       padding: 10px;
       padding-bottom: 200px;
 }
-.top{
-      background: rgba(255, 255, 255, 0.5);
+.atas{
       display: flex;
       justify-content: space-between;
       align-items: center;
+      background-color: blue;
+      padding: 10px;
 }
 .logo-idn{
       gap: 10px;
@@ -26,11 +28,14 @@ body{
       gap: 10px;
       display: flex;
 }
-.profile{
-      display: flex;
+.indo img, .eng img{
+      width: 2rem;
+      height: 2rem;
 }
 .profile h2{
-      margin-right: 20px;
+      width: 100%;
+      color: white;
+      text-align: center;
 }
 .nav{
       display: flex;
@@ -62,8 +67,7 @@ body{
       height: 20rem;
 }
 @media(max-width: 600px){
-.top{
-      background: rgba(255, 255, 255, 0.5);
+.atas{
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -75,32 +79,10 @@ body{
       justify-content: center;
       align-items: center;
 }
-.logo-eng{
-      gap: 10px;
-      display: flex;
-}
-.logo-eng .indo{
-      background-image: url(/img/flag-us-svgrepo-com.svg);
-      width: 2rem;
-      height: 2rem;
-      background-size: cover;
-      cursor: pointer;
-}
-.logo-eng .eng{
-      background-image: url(/img/flag-for-flag-indonesia-svgrepo-com.svg);
-      width: 2rem;
-      height: 2rem;
-      background-size: cover;
-      cursor: pointer;
-}
-.logo-eng .indo:hover{
-      translate: 2px;
-}
+
+
 .profile{
       display: flex;
-}
-.profile h2{
-      margin-right: 20px;
 }
 .nav{
       display: flex;
@@ -125,9 +107,29 @@ body{
 }
 .img-main{
       background-size: cover;
-      background-image: url(/img/jeshoots-com--2vD8lIhdnw-unsplash.jpg);
+      /* gradasi */
+      background-image: linear-gradient(to top , rgba(0,0,3,1)5%, rgba(0,0,0,0.3)90%),url(/img/jeshoots-com--2vD8lIhdnw-unsplash.jpg);
       width: 100%;
       height: 10rem;
+      display: flex;
+      align-items: center;
+      gap: 2rem;
+      padding: 0.5rem;
+}
+.img-main .item-body h4{
+      color: white;
+      font-size: 0.8rem;
+      margin: 0.5rem;
+}
+.img-main .item-body h2{
+      color: white;
+      font-size: 1rem;
+}
+.img-main img{
+      width: 6rem;
+      height: 6rem;
+      border-radius: 5%;
+      opacity: 0.7;
 }
 .main p{
       text-align: center;
