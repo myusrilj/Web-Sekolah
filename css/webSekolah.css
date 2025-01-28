@@ -313,6 +313,9 @@ section:nth-child(4){
       box-shadow: 1px 1px 5px rgb(0, 0, 0);
       
 }
+.agenda p{
+      text-align: center;
+}
 .list-agenda a{
       background-color: #464545;
       padding: 5px;
@@ -361,9 +364,35 @@ section:last-child{
       align-items: center;
       justify-content: center;
       background-color: rgba(0, 0, 255, 0.774);
+      margin-bottom: 45px;
 }
 .copy{
       text-align: center;
       color: #fff;
+}
+/* Navigation */
+nav{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+      background-color: #38df8b;
+      height: 3rem;
+      position: fixed;
+      z-index: 1000;
+      bottom: 0;
+      width: 100%;
+}
+nav a{
+      background-color: #fff;
+      color: #000;
+      text-decoration: none;
+      border-radius: 5px;
+      font-size: 2rem;
+      display: flex;
+      align-items: center;
+}
+nav a:hover{
+      color: #00ABE4;
 }
 }
