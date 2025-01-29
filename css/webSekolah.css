@@ -5,7 +5,7 @@
       box-sizing: border-box;
       /* border: 1px solid red; */
 }
-@media(min-width:400px){
+@media(min-width:300px){
 /* header */
 header{
       background-color: #106EBE;
